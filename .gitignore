@@ -1,4 +1,43 @@
 # =============================
+# IntelliJ IDEA
+# =============================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+build/
+
+# =============================
+# Java / Spring Boot
+# =============================
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+/.classpath
+/.project
+/.settings/
+.gradle/
+
+# Logs
+*.log
+*.log.*
+
+# Compiled class files
+*.class
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# =============================
+# Environment files
+# =============================
+*.env
+.env.*
+
+
+# =============================
 # Node / React
 # =============================
 **/node_modules/
