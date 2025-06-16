@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: ai-chatbot-backend
+  ai:
+    ollama:
+      chat:
+        enabled: true
+        options:
+          model: llama3.2 # Or whatever Llama model you pulled, e.g., llama2, codellama
+          temperature: 0.7 # Adjust temperature for creativity (0.0 - 1.0)
+          top-p: 0.9 # Adjust top-p for nucleus sampling
+          # Other Ollama options can be added here
+          # base-url: http://localhost:11434 # Default, only specify if different
+
+server:
+  port: 8080 # Backend server port
+
+# CORS Configuration for React Frontend
+cors:
+  allowed-origins: http://localhost:3000 # React dev server
+  allowed-methods: GET,POST,PUT,DELETE,OPTIONS
+  allowed-headers: Content-Type,Authorization
+  allow-credentials: true

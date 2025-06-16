@@ -1,0 +1,41 @@
+# =============================
+# Node / React
+# =============================
+**/node_modules/
+**/build/
+**/dist/
+
+# React dev files
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# npm / yarn logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =============================
+# Testing and coverage
+# =============================
+coverage/
+*.lcov
+
+# =============================
+# Miscellaneous
+# =============================
+.vscode/
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# =============================
+# IntelliJ IDEA
+# =============================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
